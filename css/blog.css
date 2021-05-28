@@ -1,0 +1,43 @@
+.header h1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 5vh;
+}
+
+.button_div {
+    padding: 10px 0px;
+}
+
+.button_div button {
+    width: 100px;
+    height: 50px;
+    font-size: 1.5vh;
+    font-weight: 400;
+}
+
+.blog_card{
+    margin: 10vh auto;
+}
+
+.blog_card h3 {
+    font-size: 1.5rem;
+}
+
+.section {
+    padding: 0vh 15vh;
+    padding-right: 0;
+}
+
+.blog_back {
+    padding: 0 0 3vh 0;
+    font-size: 1.5rem;
+}
+
+.blog_back a{
+    color: cyan;
+}
+
+.blog_back a:hover{
+    color: crimson;
+}

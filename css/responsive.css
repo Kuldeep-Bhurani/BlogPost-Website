@@ -1,0 +1,128 @@
+/* for all */
+@media only screen and (max-width: 1440px) {
+    .logotext {
+        font-size: 1.8rem;
+    }
+
+    .navitem {
+        padding: 0.5rem;
+    }
+
+    .navlink {
+        font-size: 1.1rem;
+    }
+
+    .search_bar form input {
+        font-size: 0.8rem;
+    }
+
+    .search_bar form button {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+    .search_bar form input {
+        font-size: 0.7rem;
+        padding: 3px;
+    }
+
+    .search_bar form button {
+        font-size: 0.7rem;
+        padding: 3px;
+    }
+}
+
+@media only screen and (max-width: 1240px) {
+    .burger {
+        display: block !important;
+    }
+
+    .r-class {
+        display: none;
+    }
+
+    .r-nav {
+        height: 100vh;
+    }
+
+    .navigation {
+        flex-direction: column;
+        transition: all 1s ease-out;
+    }
+
+    .left_nav {
+        width: 100%;
+        text-align: center;
+        margin: 0;
+    }
+
+    .right_nav {
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .logotext {
+        font-size: 2rem;
+    }
+
+    .navlist {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navitem {
+        padding: 1rem;
+    }
+    
+    .navlink {
+        font-size: 1.5rem;
+    }
+
+    .search_bar form input {
+        font-size: 0.9rem;
+        padding: 4px;
+    }
+    
+    .search_bar form button {
+        font-size: 0.9rem;
+        padding: 4px;
+    }
+}
+
+/* for index */
+@media only screen and (max-width: 1440px) {
+    .header picture img {
+        width: 50%;
+    }
+} 
+
+@media only screen and (max-width: 550px) {
+    .header picture h1 {
+        font-size: 1.5rem;
+    }
+
+    .section h1 {
+        font-size: 1.8rem !important;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .header picture h1 {
+        font-size: 1rem;
+    }
+
+    .section h1 {
+        font-size: 1rem !important;
+    }
+}
+
+/* for contact */
+
+
+/* for blog show-up */
+
+
+/* for blogs */

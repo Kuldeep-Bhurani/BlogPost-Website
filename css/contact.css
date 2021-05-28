@@ -1,0 +1,152 @@
+body{
+    transition: all 0.5s ease;
+    height: 100%;
+    overflow: hidden;
+}
+
+.header h1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 4vh;
+}
+
+.section{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.field-name,
+.field-ph_num,
+.field-mail,
+.field-submit {
+    position: absolute;
+    top: 50;
+    left: 50;
+    transform: translate(-50%, -50%);
+    background: black;
+    height: 50px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+}
+
+.final_submit {
+    position: absolute;
+    top: 50;
+    left: 50;
+    transform: translate(-50%, -50%);
+    background: black;
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+
+.final_submit p {
+    margin: 20px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.field-name i,
+.field-ph_num i,
+.field-mail i,
+.field-submit i {
+    padding: 10px;
+}
+
+.pointer_btn{
+    cursor: pointer;
+}
+
+.field-name input,
+.field-ph_num input,
+.field-mail input {
+    background: none;
+    border: none;
+    flex: 1;
+    height: 100%;
+    outline: none;
+    color: cyan;
+}
+
+.color_cyan {
+    color: cyan;
+}
+
+.inactive{
+    opacity: 0;
+    pointer-events: none;
+    transform: translate(-50%, 50%);
+}
+
+.active{
+    opacity: 1;
+    pointer-events: all;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes shake {
+    0%{
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+
+    50%{
+        transform: translate(-50%, -50%) rotate(10deg);
+    }
+
+    100%{
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
+/* input num instruction to web browsers */
+#ph_num::-webkit-outer-spin-button,
+#ph_num::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#ph_num {
+    -moz-appearance: textfield;
+}
+
+/* input name and mail instruction to web browsers */
+.field-name input:-webkit-autofill,
+.field-name input:-webkit-autofill:hover, 
+.field-name input:-webkit-autofill:focus, 
+.field-name input:-webkit-autofill:active,
+.field-mail input:-webkit-autofill,
+.field-mail input:-webkit-autofill:hover, 
+.field-mail input:-webkit-autofill:focus, 
+.field-mail input:-webkit-autofill:active {
+    box-shadow: 0 0 0 30px black inset !important;
+    -webkit-box-shadow: 0 0 0 30px black inset !important;
+    -webkit-text-fill-color: cyan !important;
+}
+
+.field-name input,
+.field-mail input {
+    filter: none;
+}

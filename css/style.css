@@ -1,0 +1,189 @@
+/* importing fonts from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(39, 39, 39);
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 90px;
+    background: cyan;
+}
+
+.left_nav {
+    width: 60%;
+    margin-left: 10vh;
+}
+
+.logotext {
+    color: crimson;
+    font-size: 2rem;
+    font-family: 'Cantarell', sans-serif;
+}
+
+.right_nav {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navlist {
+    list-style-type: none;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 50%;
+}
+
+.navitem {
+    padding: 1rem;
+}
+
+.navlink {
+    color: crimson;
+    font-size: 1.2rem;
+    font-weight: 900;
+    text-decoration: none;
+    font-family: 'Cantarell', sans-serif;
+}
+
+.navlink:hover {
+    color: rgb(126, 0, 25);
+}
+
+.search_bar {
+    width: 50%;
+}
+
+.search_bar form input {
+    outline: none;
+    background: none;
+    border: 2px solid crimson;
+    color: crimson;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 20px;
+    padding: 4px;
+    margin: 2px;
+}
+
+.search_bar form button {
+    outline: none;
+    background: cyan;
+    border: 2px solid crimson;
+    color: crimson;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 20px;
+    padding: 4px;
+    margin: 2px;
+    cursor: pointer;
+}
+
+.search_bar button:hover {
+    background: crimson;
+    color: cyan;
+}
+
+.burger {
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 30px;
+    display: none;
+}
+
+.line {
+    width: 33px;
+    background-color: crimson;
+    height: 4px;
+    margin: 5px 3px;
+    transition: 0.5s;
+}
+
+.x-burger #L1 {
+    transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+.x-burger #L2 {
+    opacity: 0;
+}
+
+.x-burger #L3 {
+    transform: rotate(45deg) translate(-6px, -6px);
+}
+
+.header {
+    margin: auto;
+    width: 90%;
+    color: cyan;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.section {
+    margin: auto;
+    width: 90%;
+    color: cyan;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 8vh;
+    background: cyan;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.footer div {
+    font-size: 1rem;
+}
+
+.section {
+    margin: 5vh auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.button_div {
+    padding: 10vh;
+}
+
+.button_div button {
+    width: 150px;
+    height: 50px;
+    background: cyan;
+    color: crimson;
+    cursor: pointer;
+    font-size: 1.7vh;
+    font-family: 'Cantarell', sans-serif;
+    font-weight: 600;
+    border: 2px solid crimson;
+    border-radius: 25px;
+    outline: none;
+}
+
+.button_div button:hover {
+    color: cyan;
+    background: crimson;
+    border: 2px solid cyan;
+    border-radius: 25px;
+}
